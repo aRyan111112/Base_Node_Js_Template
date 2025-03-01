@@ -1,5 +1,5 @@
 inside 'src/config' folder create file named as 'config.json' and write following code inside it :
-
+```
 {
   "development": {
     "username": "root",
@@ -23,7 +23,7 @@ inside 'src/config' folder create file named as 'config.json' and write followin
     "dialect": "mysql"
   }
 }
-
+```
 - If you are setting development environment, then write username and password of your DB and in dialect mention the database you are using such as mysql, mariaDB etc.
 
 - If you are setting prod environment make sure to replace your host with the hosted DB url.
